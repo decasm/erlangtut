@@ -56,7 +56,7 @@
 %%% Change the function below to return the name of the node where the
 %%% messenger server runs
 server_node() ->
-	messenger@node1.
+	messenger@localhost .
 
 %%% This is the server process for the "messenger"
 %%% the user list has the format [{ClientPid1, Name1},{ClientPid22, Name2},...]
